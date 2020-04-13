@@ -28,7 +28,8 @@ module.exports = eleventyConfig => {
     // Collections
     eleventyConfig.addCollection('blog', collection => {
 
-        const blogs = collection.getFilteredByTag('blog')
+       //  const blogs = collection.getFilteredByTag('blog')
+       const blogs = collection.getFilteredByGlob('site/blog/*.md')
 
         for( let i = 0; i < blogs.length; i++ ) {
 

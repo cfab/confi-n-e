@@ -1,0 +1,32 @@
+{
+    "name": "Choulex se confi-n-e",
+    "url": "https://confi-n-e.choulex.ch",
+    "author": {
+        "name": "Wonderweb",
+        "email": "fab@wonderweb.ch",
+        "handle": "@fab_cor",
+        "avatar": "/images/blog/author.jpg"
+    },
+    "images": {
+        "logo": "/images/logo/logo.svg",
+        "favicon": "/images/favicon.ico",
+        "twitter": "/images/meta/twitter.jpg",
+        "og": "/images/meta/og.jpg"
+    },
+    "social_links": {
+        "facebook": "https://www.facebook.com",
+        "twitter": "https://twitter.com/"
+    },
+    "address": {
+        "street": "Gouille Noire",
+        "street_2": "",
+        "city": "Choulex",
+        "postcode": "1244",
+        "country": "CH"
+    },
+    "contact": {
+        "phone": "123 456 789",
+        "mobile": "(+44) 1234 5678",
+        "email": "hello@wonderweb.ch"
+    }
+}

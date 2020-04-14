@@ -618,7 +618,7 @@ video {
 }
 
 a {
-  color: #21183c;
+  color: #1a202c;
   text-decoration: none;
   transition-property: all;
   transition-duration: 300ms;
@@ -639,7 +639,7 @@ h1, h2, h3 {
   line-height: 1.25;
   margin-top: 0;
   margin-bottom: 1.5rem;
-  color: #21183c;
+  color: #4a5568;
 }
 
 .page-title {

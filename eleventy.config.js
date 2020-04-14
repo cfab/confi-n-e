@@ -5,7 +5,7 @@ const dateFilter = require('nunjucks-date-filter');
 module.exports = eleventyConfig => {
 
     // Add a readable date formatter filter to Nunjucks
-    //eleventyConfig.addFilter("dateDisplay", require("./filters/dates.js"))
+    eleventyConfig.addFilter("dateDisplay", require("./filters/dates.js"))
     eleventyConfig.addFilter('date', dateFilter);
 
     // Add a HTML timestamp formatter filter to Nunjucks
